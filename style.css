@@ -162,6 +162,24 @@ span{
 
 
 /* our popular tours end */
+/*  */
+
+/* grid sectio start */
+.grid-main-section{
+    margin-top: 100px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    
+    grid-gap: 10px;
+}
+.grid-items{
+    /* width: 100%;
+    height: auto; */
+}
+
+/* grid sectio end */
 
 /*  */
 /* why choose us start */
@@ -221,6 +239,116 @@ span{
    
 }
 /* why choose us end */
+/*  */
+
+/* deal discount start */
+.main-deals-discount{
+    margin-top: 100px;
+}
+.tex-deal-discount {
+    text-align: center;
+}
+.tex-deal-discount h1{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.tex-deal-discount p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #5A5A5D;
+}
+.deal-discount-img,.deal-discount-img-3{
+    background: url('./Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.number-one-img,.number-one-img-2{
+    max-width: 570px;
+    height: 390px;
+    border: 2px solid red;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-left:20px;
+    padding-top: 30px;
+    
+
+  
+    
+}
+.number-one-img h3,.number-one-img-2 h3{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.number-one-img p,.number-one-img-2 p{
+    font-size: 15px;
+    color: #5A5A5D;
+    padding-bottom: 20px;
+}
+.number-one-img h6,.number-one-img-2 h6{
+    font-size: 20px;
+    color: #FF5400;
+    padding-bottom: 20px;
+}
+.watch{
+    display: flex;
+    gap: 10px;
+}
+.man{
+    display: flex;
+    gap: 10px;
+}
+.location{
+    display: flex;
+    gap: 10px;
+}
+.all-small-icon{
+    display: flex;
+gap: 30px;
+    justify-content: left;
+    padding-bottom:20px;
+}
+.deal-discount-img-2{
+    background: url('./Images/Group\ 40.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    
+}
+.number-one-img-2{
+    max-width: 570px;
+    height: 390px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-left:20px;
+    padding-top: 30px;
+}
+.all-small-icon-2{
+    display: flex;
+    gap: 30px;
+        justify-content: left;
+        padding-bottom:20px;
+
+}
+.deal-discount-img{
+    background: ;
+
+}
+/* deal discount end */
 /*  */
 /* newsletter start here */
 .main-news-letter{
