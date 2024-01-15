@@ -241,16 +241,12 @@ span{
     font-size: 24px;
     color: #131318;
     padding-bottom: 10px;
-    max-width: 300px;
-    margin: 0 auto;
-    padding-top: 58px;
+    padding-top: 48px;
 }
 .newsletter-left-side p{
     font-size: 15px;
     color: #5A5A5D;
-    max-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 48px;
+    padding-bottom: 40px;
 }
 .newsletter-right-side img{
     width: 100%;
@@ -259,9 +255,12 @@ span{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    
+    padding-bottom: 40px;
+}
+.main-left-side{
     max-width: 300px;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 .sign-in-area input{
     padding: 13px 18px;
@@ -331,6 +330,20 @@ span{
     }
     .why-choose-us{
         margin-top: 40px;
+    }
+    /*  */
+    .main-news-letter{
+        flex-direction: column;
+    }
+    .newsletter-left-side{
+        width: 100%;
+    }
+    .sign-in-area input{
+        padding: 20px 25px;
+        
+    }
+    .main-left-side{
+        max-width: 80%;
     }
         
         
