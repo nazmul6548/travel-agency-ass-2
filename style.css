@@ -124,7 +124,44 @@ span{
     color: #fff;
 }
 /* banner section end */
-/* header css start here */
+/* header css end here */
+
+
+/*  */
+/* our popular tours start */
+.our-popular-tours{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.popular-left-side-text{
+    width: 60%;
+}
+.popular-left-side-text h2{
+    font-size: 40px;
+    padding-bottom: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 800;
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+.popular-left-side-text p{
+    padding-bottom:24px ;
+    color:  rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+
+}
+.popular-rightside-img img{
+    width: 100%;
+}
+
+
+/* our popular tours end */
 
 
 
@@ -165,6 +202,20 @@ span{
     }
     .banner-section{
         padding-bottom: 80px;
+    }
+    .btn{
+        padding: 20px 18px;
+    }
+
+    /*  */
+    .our-popular-tours{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .popular-left-side-text {
+        width: 100%;
     }
         
         
