@@ -58,8 +58,11 @@ span{
 /* nav end */
 /* banner section start */
 .banner-section{
-    background: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, rgba(19,19,24,0.80) 0%,rgba(19,19,24,0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 50px;
     padding-bottom: 120px;
     border-radius: 15px;
@@ -82,6 +85,9 @@ span{
     font-weight: 400;
     font-family: 'Mulish', sans-serif;
     padding: 24px 0 45px;
+    text-align:center;
+    max-width: 600px;
+    margin: 0 auto;
 
 }
 .input{
@@ -119,3 +125,50 @@ span{
 }
 /* banner section end */
 /* header css start here */
+
+
+
+
+/*  */
+/* responsive code start here */
+@media screen and (max-width: 600px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+    .banner-section{
+        
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .input-type{
+        flex-direction: column;
+    }
+    .input{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    .input-type input{
+        padding: 20px 18px;
+        /* border: none;
+        border-radius: 5px; */
+    }
+    .banner-text h1{
+        font-size: 45px;
+        padding-top: 25px;
+    }
+    .banner-section{
+        padding-bottom: 80px;
+    }
+        
+        
+
+    
+}
+/* responsive code end here */
