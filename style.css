@@ -221,6 +221,56 @@ span{
    
 }
 /* why choose us end */
+/*  */
+/* newsletter start here */
+.main-news-letter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.newsletter-left-side{
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 45%;
+   
+}
+.newsletter-left-side h3{
+    font-size: 24px;
+    color: #131318;
+    padding-bottom: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+.newsletter-left-side p{
+    font-size: 15px;
+    color: #5A5A5D;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.newsletter-right-side img{
+    width: 100%;
+}
+.sign-in-area{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.sign-in-area input{
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+/* newsletter start end */
+
 
 
 
@@ -278,6 +328,9 @@ span{
     }
     .popular-rightside-img img{
         width: 100%;
+    }
+    .why-choose-us{
+        margin-top: 40px;
     }
         
         
