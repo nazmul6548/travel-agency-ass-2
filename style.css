@@ -91,7 +91,7 @@ span{
 
 }
 .input{
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     background:rgba(255, 255, 255, 0.30);
     border-radius: 10px;
@@ -112,6 +112,7 @@ span{
     padding: 13px 18px;
     border: none;
     border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
 }
 ::placeholder{
     padding:10px;
@@ -122,6 +123,8 @@ span{
     padding: 13px 22px;
     border-radius: 8px;
     color: #fff;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
 }
 /* banner section end */
 /* header css end here */
@@ -259,6 +262,7 @@ span{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     border-radius: 10px;
+    /* max-width: 570px; */
 
 }
 .box-model-1 h4{
@@ -432,7 +436,7 @@ gap: 30px;
     position: absolute;
     bottom: 30px;
     right: 0;
-    left: 20%;
+    left: 15%;
     transform: rotateX(0deg) rotate(-10deg); 
     
     
