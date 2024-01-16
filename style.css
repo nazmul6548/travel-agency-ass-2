@@ -421,6 +421,7 @@ span {
 }
 .tex-deal-discount {
   text-align: center;
+  
 }
 .tex-deal-discount h1 {
   font-size: 40px;
@@ -437,8 +438,6 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* display: flex;
-    justify-content: space-around; */
   padding-left: 500px;
   padding-top: 55px;
   padding-bottom: 55px;
@@ -723,10 +722,13 @@ footer {
   .input-type {
     flex-direction: column;
   }
+  #cards{
+    padding: 20px;
+  }
   .input {
     max-width: 80%;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 5px 20px;
   }
   .input-type input {
     padding: 20px 18px;
