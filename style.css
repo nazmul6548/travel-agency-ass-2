@@ -232,6 +232,8 @@ span{
     font-size: 16px;
     color: rgba(19, 19, 24, 0.70);
     padding-bottom: 24px;
+    max-width: 700px;
+    margin: 0 auto;
 
 }
 .grid-container{
@@ -254,10 +256,7 @@ span{
     font-size: 30px;
     font-family: 'Mulish', sans-serif;
 }
-.grid-items{
-    /* width: 100%;
-    height: auto; */
-}
+
 .number-1-img{
     border-radius: 16px;
 background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
@@ -389,6 +388,10 @@ grid-row: 3 / span 1;
 /* deal discount start */
 .main-deals-discount{
     margin-top: 100px;
+}
+.another-button{
+    text-align: center;
+    margin-top: 30px;
 }
 .tex-deal-discount {
     text-align: center;
