@@ -262,8 +262,8 @@ span{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     padding-left: 500px;
     padding-top: 55px;
     padding-bottom: 55px;
@@ -527,6 +527,31 @@ footer{
         max-width: 90%;
         
         
+    }
+    .deal-discount-img,.deal-discount-img-3,.deal-discount-img-2{
+        max-width: 100%;
+        margin: 0 auto;
+        background-position: 0;
+        background-size:cover;
+        padding-left: 30px;
+        padding-top: 200px;
+        padding-bottom:5px;
+        padding-right: 30px;
+        border-radius: 15px;
+    }
+    .deal-discount-img-2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .number-one-img {
+        /* display: none; */
+    }
+    .all-small-icon{
+        /* display: flex;
+        gap: 30px;
+            justify-content: left;
+            padding-bottom:20px; */
     }
         
         
