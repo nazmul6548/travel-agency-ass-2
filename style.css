@@ -669,7 +669,7 @@ footer {
 /* responsive code start here */
 @media screen and (max-width: 600px) {
   .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
   ul {
@@ -743,7 +743,7 @@ footer {
     padding-bottom: 80px;
   }
   .btn {
-    padding: 20px 18px;
+    padding: 8px 18px;
   }
 
   /*  */
@@ -781,17 +781,17 @@ footer {
   .deal-discount-img-2 {
     max-width: 100%;
     margin: 0 auto;
-    background-position: 0;
+    background-position: center;
     background-size: cover;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 200px;
-    padding-bottom: 5px;
-    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
     border-radius: 15px;
   }
   .deal-discount-img-2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .all-pic {
@@ -826,6 +826,18 @@ footer {
   }
   .save-up {
     width: 70%;
+    transform: rotateX(0deg) rotate(-10deg);
+    bottom: 30px;
+    right: 0;
+    left: 26%;
+
+  }
+  .save-up h5{
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .save-up p{
+    font-size: 19px;
   }
   .main-left-side {
     max-width: 80%;
